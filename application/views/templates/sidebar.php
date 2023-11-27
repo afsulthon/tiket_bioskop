@@ -9,9 +9,10 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url(); ?>">
         <div class="sidebar-brand-icon">
-          <i class="fas fa-store"></i>
+          <!-- tiket icon -->
+          <i class="fas fa-ticket-alt"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">MARU STORE</div>
+        <div class="sidebar-brand-text mx-3">TIXI</div>
       </a>
 
       <!-- Divider -->
@@ -20,43 +21,31 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url(); ?>">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
+          <i class="fa-solid fa-film"></i>
+          <span>Now Playing</span></a>
       </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider">
 
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Kategori
-      </div>
-
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/elektronik">
-          <i class="fas fa-w fa-tv"></i>
-          <span>Elektronik</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/review">
+          <!-- review icon -->
+          <i class="fas fa-fw fa-tv"></i>
+          <span>Review dan Ulasan</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/pakaian_pria">
-          <i class="fas fa-w fa-tshirt"></i>
-          <span>Pakaian Pria</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/reward">
+          <!-- promotion icon -->
+          <i class="fa-solid fa-rectangle-ad"></i>
+          <span>Reward dan Promo</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/pakaian_wanita">
-          <i class="fas fa-w fa-tshirt"></i>
-          <span>Pakaian Wanita</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/pakaian_anak_anak">
-          <i class="fas fa-w fa-tshirt"></i>
-          <span>Pakaian Anak-anak</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url(); ?>kategori/peralatan_olahraga">
-          <i class="fas fa-fw fa-futbol"></i>
-          <span>Peralatan Olahraga</span></a>
+        <a class="nav-link" href="<?php echo base_url(); ?>kategori/lokasi">
+          <!-- location tag icon -->
+          <i class="fa fa-map-marker-alt"></i>
+          <span>Lokasi</span></a>
       </li>
 
       <!-- Divider -->

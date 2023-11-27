@@ -7,11 +7,11 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('admin/dashboard') ?>">
         <div class="sidebar-brand-icon">
           <i class="fas fa-store"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">ADMIN</div>
+        <div class="sidebar-brand-text mx-3">Admin</div>
       </a>
 
       <!-- Divider -->
@@ -27,12 +27,12 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('admin/data_barang') ?>">
           <i class="fas fa-w fa-database"></i>
-          <span>Data Barang</span></a>
+          <span>Data Film</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('admin/invoice') ?>">
           <i class="fas fa-w fa-file-invoice"></i>
-          <span>Invoice</span></a>
+          <span>Riwayat Pemesanan</span></a>
       </li>
 
       <!-- Divider -->

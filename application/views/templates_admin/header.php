@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Maru Store - Admin</title>
+  <title>TIXI - Admin</title>
 
   <!-- Custom fonts for this template-->
   <script src="https://kit.fontawesome.com/82d0e7f3eb.js" crossorigin="anonymous"></script>
