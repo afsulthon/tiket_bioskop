@@ -1,5 +1,6 @@
 <div class="container-fluid">
   <button class="btn btn-sm btn-primary mb-3" data-toggle="modal" data-target="#tambah_barang"> <i class="fas fa-plus mr-2"></i>Tambah Film</button>
+  <a class="btn btn-sm btn-secondary mb-3" href="<?php echo base_url('') ?>"> <i class="fa-solid fa-eye mr-2"></i>Pratinjau</a>
   <table class="table table-bordered">
     <tr class="text-center">
       <th>No.</th>
