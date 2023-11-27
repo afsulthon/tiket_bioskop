@@ -68,7 +68,7 @@
             <input type="text" name="stok" class="form-control">
           </div>
           <div class="form-group">
-            <label for="Gambar Produk">Gambar Produk</label>
+            <label for="Gambar Produk">Poster Film</label>
             <input type="file" name="gambar" class="form-control">
           </div>
       </div>

@@ -9,7 +9,7 @@
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('admin/dashboard') ?>">
         <div class="sidebar-brand-icon">
-          <i class="fas fa-store"></i>
+          <i class="fa-solid fa-lock"></i>
         </div>
         <div class="sidebar-brand-text mx-3">Admin</div>
       </a>
