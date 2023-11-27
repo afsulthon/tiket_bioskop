@@ -4,13 +4,12 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #5200FF">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url(); ?>">
         <div class="sidebar-brand-icon">
-          <!-- tiket icon -->
-          <i class="fas fa-ticket-alt"></i>
+          <img src="<?php echo base_url() ?>assets/logotixi.svg" alt="" width="40">
         </div>
         <div class="sidebar-brand-text mx-3">TIXI</div>
       </a>
@@ -37,8 +36,8 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url(); ?>kategori/review">
           <!-- review icon -->
-          <i class="fas fa-fw fa-tv"></i>
-          <span>Review dan Ulasan</span></a>
+          <i class="fa-solid fa-star"></i>
+          <span>Review dan Rating</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url(); ?>kategori/reward">
@@ -130,7 +129,6 @@
                   <li>
                     <div>Halo, <?php echo $this->session->userdata('username') ?>!</div>
                   </li>
-
                   <li class="ml-3"><?php echo anchor('auth/logout', '<i class="fas fa-sign-out-alt"></i> Keluar'); ?></li>
                 <?php } else { ?>
                   <li><?php echo anchor('auth/login', '<i class="fas fa-sign-in-alt"></i> Masuk'); ?></li>

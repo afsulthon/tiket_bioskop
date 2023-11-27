@@ -27,6 +27,19 @@
           <input type="text" name="no_telp" class="form-control" required>
         </div>
         <div class="form-group">
+          <label for="Pilih Seat" class="form-label">Pilih Seat</label>
+          <br>
+          <div class="row g-3 align-items-center">
+            <div class="col">
+              <img src="<?php echo base_url() ?>assets/img/seat.svg" class="img-responsive">
+            </div>
+            <div class="col">
+              <input type="text" name="pilih_seat" class="form-control" required placeholder="Masukkan seat*">
+              <small>*) pisahkan masing-masing seat dengan koma (,) jika menonton lebih dari 1 film</small>
+            </div>
+          </div>  
+        </div>
+        <div class="form-group">
           <label for="Pilih Bank">Pilih Metode Pembayaran</label>
           <select name="bank" id="" class="form-control" required>
             <option value="">Pilih Metode Pembayaran</option>

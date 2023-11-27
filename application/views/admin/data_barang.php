@@ -28,7 +28,7 @@
           <?php echo anchor('admin/data_barang/edit/' . $brg->id_brg, '<div class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></div>') ?>
         </td>
         <td>
-          <?php echo anchor('admin/data_barang/hapus/' . $brg->id_brg, '<div class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></div>') ?>
+          <div class="btn btn-danger btn-sm" onclick="confirmDelete(<?php echo $brg->id_brg ?>)"><i class="fas fa-trash"></i></div>
         </td>
       </tr>
     <?php endforeach; ?>
@@ -80,3 +80,24 @@
     </div>
   </div>
 </div>
+
+<!-- add sweetalert -->
+
+<script>
+  function confirmDelete(id) {
+    Swal.fire({
+      title: "Apakah Anda yakin?",
+      text: "Anda tidak akan dapat mengembalikannya!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Ya, hapus!",
+      cancelButtonText: "Batal",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "<?php echo base_url('admin/data_barang/hapus/') ?>" + id;
+      }
+    });
+  }
+</script>

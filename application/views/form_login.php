@@ -1,4 +1,4 @@
-<body class="bg-gradient-primary">
+<body class="" style="background-color: #5200FF">
 
   <div class="container">
 
@@ -26,7 +26,7 @@
                       <input type="text" class="form-control form-control-user" placeholder="Password" name="password">
                       <?php echo form_error('password', '<div class="text-danger small ml-2">', '</div>') ?>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-user btn-block">Masuk</button>
+                    <button type="submit" class="btn btn-user btn-block" style="background-color: #FFD600; color: #000000; font-weight: 700">Masuk</button>
                   </form>
                   <hr>
                   <div class="text-center">

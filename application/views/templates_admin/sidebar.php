@@ -4,7 +4,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #5200FF">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('admin/dashboard') ?>">
@@ -98,14 +98,12 @@
             <ul class="na navbar-nav navbar-right">
               <?php if ($this->session->userdata('username')) { ?>
                 <li>
-                  <div>Selamat Datang, <?php echo $this->session->userdata('username') ?>!</div>
+                  <div>Halo, <?php echo $this->session->userdata('username') ?>!</div>
                 </li>
-                <li class="ml-2"><?php echo anchor('auth/logout', 'Logout') ?></li>
+                <li class="ml-3"><?php echo anchor('auth/logout', '<i class="fas fa-sign-out-alt"></i> Keluar') ?></li>
               <?php } else { ?>
-                <li><?php echo anchor('auth/login', 'Login'); ?></li>
+                <li><?php echo anchor('auth/login', '<i class="fas fa-sign-in-alt"></i> Masuk'); ?></li>
               <?php } ?>
             </ul>
           </ul>
-
         </nav>
-        <!-- End of Topbar -->
