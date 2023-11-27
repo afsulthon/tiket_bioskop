@@ -9,7 +9,7 @@
           <div class="col-lg">
             <div class="p-5">
               <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Form Registrasi</h1>
+                <h1 class="h4 text-gray-900 mb-4">Daftarkan akun</h1>
               </div>
               <form class="user" method="post" action="<?php echo base_url('registrasi/index') ?>">
                 <div class="form-group">

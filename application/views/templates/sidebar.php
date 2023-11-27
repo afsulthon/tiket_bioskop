@@ -22,7 +22,12 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url(); ?>">
           <i class="fa-solid fa-film"></i>
-          <span>Now Playing</span></a>
+          <span>Tayang Saat Ini</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url(); ?>">
+          <i class="fa-solid fa-forward"></i>
+          <span>Akan Datang</span></a>
       </li>
 
       <!-- Divider -->
@@ -123,11 +128,12 @@
               <ul class="na navbar-nav navbar-right">
                 <?php if ($this->session->userdata('username')) { ?>
                   <li>
-                    <div>Selamat Datang, <?php echo $this->session->userdata('username') ?>!</div>
+                    <div>Halo, <?php echo $this->session->userdata('username') ?>!</div>
                   </li>
-                  <li class="ml-2"><?php echo anchor('auth/logout', 'Logout') ?></li>
+
+                  <li class="ml-3"><?php echo anchor('auth/logout', '<i class="fas fa-sign-out-alt"></i> Keluar'); ?></li>
                 <?php } else { ?>
-                  <li><?php echo anchor('auth/login', 'Login'); ?></li>
+                  <li><?php echo anchor('auth/login', '<i class="fas fa-sign-in-alt"></i> Masuk'); ?></li>
                 <?php } ?>
               </ul>
             </div>
